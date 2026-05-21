@@ -4,12 +4,12 @@ Android mobile test automation framework built with Appium and WebdriverIO.
 
 ## Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| [Appium v3](https://appium.io) | Mobile automation server — bridges test code and Android devices |
-| [WebdriverIO v9](https://webdriver.io) | Test framework — provides the JS API and test runner |
-| [UiAutomator2](https://github.com/appium/appium-uiautomator2-driver) | Android automation driver — talks directly to the device |
-| [Mocha](https://mochajs.org) | Test runner — provides `describe()`, `it()`, hooks |
+| Tool                                                                 | Purpose                                                          |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Appium v3](https://appium.io)                                       | Mobile automation server — bridges test code and Android devices |
+| [WebdriverIO v9](https://webdriver.io)                               | Test framework — provides the JS API and test runner             |
+| [UiAutomator2](https://github.com/appium/appium-uiautomator2-driver) | Android automation driver — talks directly to the device         |
+| [Mocha](https://mochajs.org)                                         | Test runner — provides `describe()`, `it()`, hooks               |
 
 ## Project Structure
 
@@ -56,11 +56,13 @@ npm install
 Tests require two things running at the same time:
 
 **Terminal 1 — Start Appium server:**
+
 ```bash
 npm run appium
 ```
 
 **Terminal 2 — Run tests:**
+
 ```bash
 npm test
 ```
