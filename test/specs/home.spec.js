@@ -15,8 +15,8 @@ describe('ApiDemos - Home Screen', () => {
 
     it('should navigate to Accessibility section', async () => {
         await homePage.tapAccessibility();
-        const header = await $('~Accessibility');
-        await expect(header).toBeDisplayed();
+        const firstItem = await $('~Accessibility Node Provider');
+        await expect(firstItem).toBeDisplayed();
         await driver.back();
     });
 });
