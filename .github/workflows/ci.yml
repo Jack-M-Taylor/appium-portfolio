@@ -24,3 +24,6 @@ jobs:
 
       - name: Check for unused dependencies
         run: npm ls
+
+      - name: Check formatting
+        run: npx prettier --check .

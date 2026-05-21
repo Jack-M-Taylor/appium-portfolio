@@ -10,13 +10,14 @@ describe('ApiDemos - Home Screen', () => {
     });
 
     it('should display the Views menu item', async () => {
+        
         await expect(homePage.viewsLink).toBeDisplayed();
     });
 
     it('should navigate to Accessibility section', async () => {
         await homePage.tapAccessibility();
-        const firstItem = await $('~Accessibility Node Provider');
-        await expect(firstItem).toBeDisplayed();
+           const firstItem = await $('~Accessibility Node Provider');
+         await expect(firstItem).toBeDisplayed();
         await driver.back();
     });
 });
