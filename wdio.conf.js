@@ -14,7 +14,7 @@ exports.config = {
       platformName: "Android",
       "appium:automationName": "UiAutomator2",
       "appium:deviceName": "Android Emulator",
-      "appium:app": path.join(process.cwd(), "apps", "ApiDemos-debug.apk"),
+      "appium:app": path.join(process.cwd(), "apps", "sauce-demo.apk"),
       "appium:newCommandTimeout": 240,
       "appium:autoGrantPermissions": true,
     },
